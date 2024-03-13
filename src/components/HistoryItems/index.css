@@ -1,0 +1,105 @@
+.history-item {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.history {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+.history-text {
+  width: 100%;
+  display: flex;
+  margin-right: 0px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.delete-btn {
+  background-color: transparent;
+  border: 0px;
+  width: 50px;
+  padding: 0px;
+}
+.time-box {
+  margin-right: 10px;
+  color: #475569;
+  width: 80px;
+}
+.delete-icon {
+  margin: 0px;
+  height: 28px;
+}
+.logo-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.title-p {
+  font-size: 16px;
+  color: #475569;
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  margin: 0px;
+}
+.domain-p {
+  font-size: 16px;
+  color: #64748b;
+  margin: 0px;
+  margin-left: 10px;
+}
+.history-title {
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .history-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .history-title {
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+  }
+  .domain-p {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .time-box {
+    margin: 0px;
+    margin-left: 5px;
+  }
+  .history-item {
+    padding: 2px;
+    margin-left: 0px;
+  }
+  .time-p {
+    font-size: 14px;
+  }
+  .title-p {
+    margin: 0px;
+  }
+  .logo-img {
+    width: 25px;
+    height: 25px;
+  }
+  .title-p {
+    font-size: 12px;
+  }
+  .domain-p {
+    font-size: 12px;
+  }
+  .history-title {
+    margin-left: 5px;
+  }
+}
